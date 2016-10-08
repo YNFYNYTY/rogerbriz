@@ -1,0 +1,453 @@
+@font-face {
+  font-family: 'neue';
+  src: url('../fonts/neue.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/neue.ttf') format('truetype'), /* IE6-IE8 */
+       url('../fonts/neue.ttf') format('truetype'), /* Modern Browsers */
+       url('../fonts/neue.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/neue.ttf') format('truetype'); /* Legacy iOS */
+}
+html {
+	width: 100%;
+	height: 100%;
+	font-family: arial,sans-serif;
+}
+.container_heart {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+.container_about {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;	
+}
+.container_about h1 {
+	line-height: 1.5;
+	padding: 2% 5%;
+	color:black;
+	font-size: 35px;
+}
+.container_about h1:hover .dif-one {
+	color: rgb(0, 255, 0);
+	-moz-transition: all 0.3s 0s ease-out;  
+    -o-transition: all 0.3s 0s ease-out; 
+    -webkit-transition: all 0.3s 0s ease-out;  
+    -ms-transition: all 0.3s 0s ease-out;  
+     transition: all 0.3s 0s ease-out;
+}
+.container_about h1:hover .dif-two {
+	color: rgb(0, 255, 255);
+	-moz-transition: all 0.3s 2s ease-out;  
+    -o-transition: all 0.3s 2s ease-out;  
+    -webkit-transition: all 0.3s 2s ease-out;  
+    -ms-transition: all 0.3s 2s ease-out;  
+     transition: all 0.3s 2s ease-out;
+}
+.container_about h1:hover .dif-three {
+	color: rgb(255, 255, 0);
+	-moz-transition: all 0.3s 2.5s ease-out; 
+    -o-transition: all 0.3s 2.5s ease-out; 
+    -webkit-transition: all 0.3s 2.5s ease-out; 
+    -ms-transition: all 0.3s 2.5s ease-out; 
+     transition: all 0.3s 2.5s ease-out;
+}
+.roger {
+	font-size: 30px;
+	text-align: center;
+}
+.roger_two {
+	text-align: center;
+	font-size: 60px;
+}
+.dif-four {
+	color: red;
+}
+body {
+	max-width: 100% !important;
+    overflow-x: hidden;
+	position: absolute;
+    min-height: 100% !important;
+    width: 100%;
+    z-index: 0;
+	font-family: 'neue';
+	color: white; 
+	background: url(../images/background3.jpg) 50% 0% / cover ;
+	background-attachment: fixed;
+	background-color:white;
+}
+#brain {
+	 margin-top: 8%;
+	 margin-left: -10%;
+	 height: 300px;
+	 -moz-transition: all 5.5s ease-in;  
+     -o-transition: all 5.5s ease-in;  
+     -webkit-transition: all 5.5s ease-in; 
+    -ms-transition: all 5.5s ease-in;  
+     transition: all 5.5s ease-in;
+}
+#brain:hover {
+	 height: 510px;
+	-moz-transition: all 8.5s ease-out; 
+    -o-transition: all 8.5s ease-out; 
+    -webkit-transition: all 8.5s ease-out; 
+    -ms-transition: all 8.5s ease-out;
+     transition: all 8.5s ease-out;
+}
+.spin {
+   -webkit-animation: scale 3s  infinite;
+   -moz-animation: scale 3s  infinite;
+   animation: scale 3s  infinite;
+   animation-timing-function: ease-out;
+   -webkit-animation-timing-function: ease-out;
+   -moz-animation-timing-function: ease-out;
+}
+@-webkit-keyframes scale {
+  0% {
+    transform: rotate(0deg)  scale(1);
+  }
+  25% {
+    transform: rotate(3deg)  scale(1.05);
+  }
+  50% {
+    transform: rotate(0deg)  scale(0.95);
+  }
+  75% {
+    transform: rotate(-3deg)  scale(1.05);
+  }
+  100% {
+    transform: rotate(0deg)  scale(1);
+  }
+}
+.crazy {
+  -webkit-animation: fast-crazy 0.09s  infinite;
+  -moz-animation: fast-crazy 0.09s  infinite;
+  animation: fast-crazy 0.09s  infinite;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  -moz-animation-timing-function: ease-out;
+}
+@-webkit-keyframes fast-crazy {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.005);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.height-variation {
+  -webkit-animation: height-change 0.2s  7;
+  -moz-animation: height-change 0.2s  7;
+  animation: height-change 0.2s  7;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  -moz-animation-timing-function: ease-out;
+}
+@-webkit-keyframes height-change {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.big-bang {
+	-webkit-animation: superbigbang 4s  infinite;
+    -moz-animation: superbigbang 4s  infinite;
+    animation: superbigbang 4s  infinite;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+@-webkit-keyframes superbigbang {
+  from {
+    transform: rotate(0deg)  ;
+  }
+  to {
+    transform: rotate(360deg) ;
+  }
+}
+.container_about a[title]:hover:after, .container_heart a[title]:hover:after {
+  text-decoration: none;
+  transform : rotate(90deg);
+  letter-spacing: 4.5px;
+  font-size: 13px;
+  font-weight: 900;
+  content: attr(title);
+  color: rgb(126, 126, 126);
+  position: absolute;
+  left: -20px;
+  top: 56px;
+  z-index: 20;
+}
+.index {
+  font-weight: 900;
+  letter-spacing: 12px;
+  color: black;
+  font-size: 100%;
+  position: relative;
+  top: 40%;
+    text-align: center;
+    transform:  rotate(270deg);
+    -moz-transition: all 0.6s ease-in-out; 
+    -o-transition: all 0.6s ease-in-out;  
+    -webkit-transition: all 0.6s ease-in-out; 
+    -ms-transition: all 0.6s ease-in-out;  
+     transition: all 0.6s ease-in-out;
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+.contact {
+	letter-spacing: 22px;
+	color: black;
+	font-size: 100%;
+	position: relative;
+	top: 50%;
+    text-align: center;
+    transform:  rotate(270deg);
+    -moz-transition: all 0.6s ease-in-out; 
+    -o-transition: all 0.6s ease-in-out;  
+    -webkit-transition: all 0.6s ease-in-out; 
+    -ms-transition: all 0.6s ease-in-out;  
+     transition: all 0.6s ease-in-out;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+.works {
+	letter-spacing: 22px;
+	top: -7px;
+	color: white;
+	font-size: 100%;
+	position: relative;
+    text-align: center;
+    -moz-transition: all 0.6s ease-in-out; 
+    -o-transition: all 0.6s ease-in-out;  
+    -webkit-transition: all 0.6s ease-in-out; 
+    -ms-transition: all 0.6s ease-in-out;  
+     transition: all 0.6s ease-in-out;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+#leftHalf {
+   background: url(../images/overlay.png) repeat, rgba(255, 255, 255, 0.15);
+   width: 40px;
+   /*border-right: dotted 1px black;*/
+   position: absolute;
+   left: 0px;
+   height: 100%;
+   z-index: 100;
+   -moz-transition: all 0.6s ease-in-out;  
+    -o-transition: all 0.6s ease-in-out; 
+    -webkit-transition: all 0.6s ease-in-out;  
+    -ms-transition: all 0.6s ease-in-out; 
+    transition: all 0.6s ease-in-out;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+#leftHalf:hover {
+	background: url(../images/overlay.png) repeat, rgba(0, 0, 0, 0.5);
+	width: 50%;
+	height: 100%;
+	max-width: 50%;
+	-moz-transition: all 0.6s ease-in-out;  
+    -o-transition: all 0.6s ease-in-out;  
+    -webkit-transition: all 0.6s ease-in-out;  
+    -ms-transition: all 0.6s ease-in-out;  
+     transition: all 0.6s ease-in-out;
+}
+#downhide:hover ~ #righthide div, #downhide:hover ~ #lefthide div {
+	width: 0px;
+	font-size: 0px;
+	-moz-transition: all 0s linear;  
+    -o-transition: all 0s linear;  
+    -webkit-transition: all 0s linear;  
+    -ms-transition: all 0s linear;  
+     transition: all 0s linear;
+}
+#downhide:hover ~ #righthide h1, #downhide:hover ~ #lefthide h1 {
+	display: none;
+	-moz-transition: all 0s linear;  
+    -o-transition: all 0s linear;  
+    -webkit-transition: all 0s linear;  
+    -ms-transition: all 0s linear;  
+     transition: all 0s linear;
+}
+#rightHalf {
+   background: url(../images/overlay.png) repeat, rgba(255, 255, 255, 0.15);
+   width: 40px;
+   /*border-left: dotted 1px black;*/
+   position: absolute;
+   right: 0px;
+   height: 100%;
+   z-index: 100;
+   -moz-transition: all 0.6s ease-in-out;  
+    -o-transition: all 0.6s ease-in-out; 
+    -webkit-transition: all 0.6s ease-in-out;  
+    -ms-transition: all 0.6s ease-in-out; 
+    transition: all 0.6s ease-in-out;
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+#rightHalf:hover {
+	background: url(../images/overlay.png) repeat, rgba(255, 255, 255, 0.6);
+	width: 50%;
+	max-width: 50%;
+	-moz-transition: all 0.6s ease-in-out;  
+    -o-transition: all 0.6s ease-in-out;  
+    -webkit-transition: all 0.6s ease-in-out; 
+    -ms-transition: all 0.6s ease-in-out;  
+     transition: all 0.6s ease-in-out;
+}
+#downHalf {
+   background:url(../images/overlay.png) repeat, -webkit-linear-gradient(left, rgba(255, 0, 0, 0), rgba(255, 165, 0, 0.15), rgba(255, 87, 0, 0.3), rgba(255, 0, 0, 0.15), rgba(255, 0, 136, 0.1), rgba(255, 0, 242, 0.05), rgba(255, 255, 255, 0));
+   background:url(../images/overlay.png) repeat, -o-linear-gradient(left, rgba(255, 0, 0, 0), rgba(255, 165, 0, 0.15), rgba(255, 87, 0, 0.3), rgba(255, 0, 0, 0.15), rgba(255, 0, 136, 0.1), rgba(255, 0, 242, 0.05), rgba(255, 255, 255, 0)); 
+   background:url(../images/overlay.png) repeat, -moz-linear-gradient(left, rgba(255, 0, 0, 0), rgba(255, 165, 0, 0.15), rgba(255, 87, 0, 0.3), rgba(255, 0, 0, 0.15), rgba(255, 0, 136, 0.1), rgba(255, 0, 242, 0.05), rgba(255, 255, 255, 0)); 
+   background:url(../images/overlay.png) repeat, linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 165, 0, 0.15), rgba(255, 87, 0, 0.3), rgba(255, 0, 0, 0.15), rgba(255, 0, 136, 0.1), rgba(255, 0, 242, 0.05), rgba(255, 255, 255, 0));
+   width: 100%;
+   position: fixed;
+   top: 95.5%;
+   height: 40px;
+   overflow: hidden;
+   /*border-top: dotted 1px black;*/
+   z-index: 200;
+   -moz-transition: all 0.6s ease-in-out;  
+    -o-transition: all 0.6s ease-in-out; 
+    -webkit-transition: all 0.6s ease-in-out;  
+    -ms-transition: all 0.6s ease-in-out; 
+    transition: all 0.6s ease-in-out;
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+#downHalf:hover {
+   background:url(../images/overlay.png) repeat, -webkit-linear-gradient(left, rgba(255, 0, 0, 0), rgba(255, 165, 0, 0.15), rgba(255, 87, 0, 0.3), rgba(255, 0, 0, 0.15), rgba(255, 0, 136, 0.1), rgba(255, 0, 242, 0.05), rgba(255, 255, 255, 0));
+   background:url(../images/overlay.png) repeat, -o-linear-gradient(left, rgba(255, 0, 0, 0), rgba(255, 165, 0, 0.15), rgba(255, 87, 0, 0.3), rgba(255, 0, 0, 0.15), rgba(255, 0, 136, 0.1), rgba(255, 0, 242, 0.05), rgba(255, 255, 255, 0)); 
+   background:url(../images/overlay.png) repeat, -moz-linear-gradient(left, rgba(255, 0, 0, 0), rgba(255, 165, 0, 0.15), rgba(255, 87, 0, 0.3), rgba(255, 0, 0, 0.15), rgba(255, 0, 136, 0.1), rgba(255, 0, 242, 0.05), rgba(255, 255, 255, 0)); 
+   background:url(../images/overlay.png) repeat, linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 165, 0, 0.15), rgba(255, 87, 0, 0.3), rgba(255, 0, 0, 0.15), rgba(255, 0, 136, 0.1), rgba(255, 0, 242, 0.05), rgba(255, 255, 255, 0));
+	width: 100%;
+	top: 50%;
+	height: 50%;
+	-moz-transition: all 0.6s ease-in-out;  
+    -o-transition: all 0.6s ease-in-out;  
+    -webkit-transition: all 0.6s ease-in-out; 
+    -ms-transition: all 0.6s ease-in-out; 
+     transition: all 0.6s ease-in-out;
+}
+#rightHalf:hover .index {
+	letter-spacing: 20px;
+  color:rgb(214, 0, 0)`;
+	font-size: 50px;
+	-moz-transition: all 0.6s ease-in-out;  
+    -o-transition: all 0.6s ease-in-out;  
+    -webkit-transition: all 0.6s ease-in-out;  
+    -ms-transition: all 0.6s ease-in-out;  
+     transition: all 0.6s ease-in-out;
+}
+#leftHalf:hover .contact {
+	letter-spacing: 20px;
+   color: #ffcc00;
+	font-size: 50px;
+	-moz-transition: all 0.6s ease-in-out;  
+    -o-transition: all 0.6s ease-in-out; 
+    -webkit-transition: all 0.6s ease-in-out;  
+    -ms-transition: all 0.6s ease-in-out;  
+     transition: all 0.6s ease-in-out;
+}
+#downHalf:hover .works {
+	top: 40%;
+	letter-spacing: 20px;
+	font-size: 50px;
+	-moz-transition: all 0.6s ease-in-out;  
+    -o-transition: all 0.6s ease-in-out;  
+    -webkit-transition: all 0.6s ease-in-out;  
+    -ms-transition: all 0.6s ease-in-out;  
+     transition: all 0.6s ease-in-out;
+}
+#downHalf:hover .subworks {
+  top: 40%;
+  font-size: 13px;
+  padding-right: 10px;
+  letter-spacing: 9px;
+}
+.colorfull {
+  z-index: 100;
+  -webkit-animation: color 10s  infinite;
+    -moz-animation: color 10s  infinite;
+    animation: color 10s  infinite;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+@-webkit-keyframes color {
+  0% {
+  background-color: rgba(255,0,0,0.15);
+  }
+  20% {
+  background-color: rgba(0,255,0,0.15);
+  }
+  40% {
+  background-color: rgba(0,0,255,0.15);
+  }
+  60% {
+  background-color: rgba(255,255,0,0.15);
+  }
+  80% {
+  background-color: rgba(0,255,255,0.15);
+  }
+  100% {
+  background-color: rgba(255,0,0,0.15);
+  }
+}
+.subworks {
+  letter-spacing: 1px;
+  top: -7px;
+  color: white;
+  font-size: 50%;
+  position: relative;
+    text-align: center;
+    -moz-transition: all 0.6s ease-in-out; 
+    -o-transition: all 0.6s ease-in-out;  
+    -webkit-transition: all 0.6s ease-in-out; 
+    -ms-transition: all 0.6s ease-in-out;  
+     transition: all 0.6s ease-in-out;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+#downHalf:hover .subworks {
+  top: 40%;
+  font-size: 13px;
+  padding-right: 10px;
+  letter-spacing: 9px;
+}
+
