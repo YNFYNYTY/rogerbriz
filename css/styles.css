@@ -152,7 +152,7 @@ body {
     opacity: 1;
   }
 } 
-.container_about a[title]:hover:after, .container_heart a[title]:hover:after {
+.container_heart a[title]:hover:after {
   text-decoration: none;
   transform : rotate(90deg);
   letter-spacing: 4.5px;
@@ -161,7 +161,7 @@ body {
   content: attr(title);
   color: rgb(126, 126, 126);
   position: absolute;
-  left: -20px;
+  left: -40px;
   top: 56px;
   z-index: 20;
 }

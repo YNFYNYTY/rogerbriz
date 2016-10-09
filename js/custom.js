@@ -1,3 +1,7 @@
+if (screen.width <= 770) {
+document.location = "../mobile/mobileindex.html";
+}
+
 $(function () {
     $('.tlt').textillate({
     	loop: true,

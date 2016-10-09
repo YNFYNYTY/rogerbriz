@@ -11,13 +11,6 @@ html {
 	height: 100%;
 	font-family: arial,sans-serif;
 }
-.container_heart {
-	text-align: center;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-top: 20%;
-	padding-bottom: 20%;
-}
 .container_about {
 	text-align: center;
 	margin-left: 10%;
@@ -78,7 +71,7 @@ body {
 	background-attachment: fixed;
 	background-color:white;
 }
-#brain {
+/*#brain {
 	 margin-top: 8%;
 	 margin-left: -10%;
 	 height: 300px;
@@ -174,7 +167,7 @@ body {
   to {
     transform: rotate(360deg) ;
   }
-}
+}*/
 .container_about a[title]:hover:after, .container_heart a[title]:hover:after {
   text-decoration: none;
   transform : rotate(90deg);
@@ -247,7 +240,7 @@ body {
     transition-delay: 0.5s;
 }
 #leftHalf {
-   background: url(../images/overlay.png) repeat, rgba(255, 255, 255, 0.15);
+   background: url(../images/overlay21.png) repeat, rgba(255, 255, 255, 0.15);
    width: 40px;
    /*border-right: dotted 1px black;*/
    position: absolute;
@@ -266,7 +259,7 @@ body {
     transition-delay: 0.5s;
 }
 #leftHalf:hover {
-	background: url(../images/overlay.png) repeat, rgba(0, 0, 0, 0.5);
+	background: url(../images/overlay21.png) repeat, rgba(0, 0, 0, 0.5);
 	width: 50%;
 	height: 100%;
 	max-width: 50%;
@@ -294,7 +287,7 @@ body {
      transition: all 0s linear;
 }
 #rightHalf {
-   background: url(../images/overlay.png) repeat, rgba(255, 255, 255, 0.15);
+   background: url(../images/overlay21.png) repeat, rgba(255, 255, 255, 0.15);
    width: 40px;
    /*border-left: dotted 1px black;*/
    position: absolute;
@@ -314,7 +307,7 @@ body {
     transition-delay: 0.5s;
 }
 #rightHalf:hover {
-	background: url(../images/overlay.png) repeat, rgba(255, 255, 255, 0.6);
+	background: url(../images/overlay21.png) repeat, rgba(255, 255, 255, 0.6);
 	width: 50%;
 	max-width: 50%;
 	-moz-transition: all 0.6s ease-in-out;  
