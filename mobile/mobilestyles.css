@@ -21,41 +21,65 @@ body {
 	width: 100%;
 }
 .row h1 {
-	font-size: 20px;
+	font-size: 35px;
 	color: white;
+	letter-spacing: 15px;
+}
+.row {
+	margin:0px;
 }
 .box_one {
-	background-color: red;
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-50deg, #ff1111, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-50deg, #ff1111, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-50deg, #ff1111, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-50deg, #ff1111, yellow); /* Standard syntax */
 	margin: 0px ;
-	padding: 15% 5%;
+	padding: 25% 5%;
 }
 .box_one_one {
-	background-color:purple;
+	background: url(../images/overlay25.png) repeat;
+	background-color:white;
 	margin:0px;
 	padding: 15% 5%;
+	box-shadow: inset 0px 15px 20px -12px;
 }
 .box_one_two {
-	background-color:pink;
+	background: url(../images/overlay24.png) repeat;
+	background-color:white;
 	margin: 0px;
 	padding:15% 5%;
+	box-shadow: inset 15px 15px 20px -12px;
 }
 .box_two {
-	background-color: green;
-	padding: 15% 5%;
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-50deg, #0061ff, #ff00e0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-50deg, #0061ff, #ff00e0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-50deg, #0061ff, #ff00e0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-50deg, #0061ff, #ff00e0); /* Standard syntax */
+	padding: 25% 5%;
 }
 .box_two_one {
-	background-color:yellow;
+	background: url(../images/overlay25.png) repeat;
+	background-color:white;
 	margin:0px;
 	padding: 15% 5%;
+	box-shadow: inset 0px 15px 20px -12px;
 }
 .box_two_two {
-	background-color:gray;
+	background: url(../images/overlay24.png) repeat;
+	background-color:white;
 	margin:0px;
 	padding:15% 5%;
+	box-shadow: inset 15px 15px 20px -12px;
 }
 .box_three {
-	background-color: blue;
-	padding: 15% 5%;
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-50deg, #46ff00, #62bff5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-50deg, #46ff00, #62bff5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-50deg, #46ff00, #62bff5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-50deg, #46ff00, #62bff5); /* Standard syntax */
+	padding: 25% 5%;
 }
 #works_son1, #works_son2, #about_son1, #about_son2 {
 	display: none;
@@ -63,7 +87,12 @@ body {
 #contact_form {
 	display: none;
 }
-
+.icon-main {
+	text-align: center;
+	width: 70%;
+	margin: 0px;
+	padding: 5%;
+}
 
 
 
