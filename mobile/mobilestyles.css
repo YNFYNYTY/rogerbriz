@@ -103,8 +103,9 @@ body {
 
 
 .field {
-  padding: 5%;
-  background-color:red;
+	margin-top: 10px;
+  padding: 5% 0%;
+  background-color:black;
 }
 label {
   font-size: 35px;
@@ -122,7 +123,7 @@ label {
   transition: all 0.6s ease-in-out;
 }
 .label-second-color {
-  color: rgba(255, 184, 0, 0.8);
+  color: rgba(82, 255, 0, 0.8);
 }
 input {
   line-height: 1.4;
@@ -146,8 +147,8 @@ input {
 }
 input:focus {
    outline: none !important;
-   border: solid 1px rgb(255, 184, 0);
-   background-color: rgba(255, 156, 0, 0.21);
+   border: solid 1px rgb(0, 255, 210);
+   background-color: rgba(160, 255, 39, 0.19);
    color: white;
    width: 100%;
    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.4);
@@ -162,8 +163,8 @@ input:focus {
 textarea:focus {
   outline: none !important;
   width: 100%;
-   border: solid 1px rgb(255, 184, 0);
-   background-color: rgba(255, 156, 0, 0.21);
+   border: solid 1px rgb(0, 255, 210);
+   background-color: rgba(160, 255, 39, 0.19);
    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.4);
    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.4);
    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.4);
@@ -193,19 +194,23 @@ textarea {
   transition: all 0.6s ease-in-out;
 }
 ::-webkit-input-placeholder {
-    color: rgba(255, 156, 0, 0.3);
+    color: gray;
+    font-size:10px;
     text-align: center;
 }
 :-moz-placeholder {
-    color: rgba(255, 156, 0, 0.3);
+    color: gray;
+    font-size:10px;
     text-align: center;
 }
 ::-moz-placeholder {
-    color: rgba(255, 156, 0, 0.3);
+    color: gray;
+    font-size:10px;
     text-align: center;
 }
 :-ms-input-placeholder {
-    color: rgba(255, 156, 0, 0.3);
+    color: gray;
+    font-size:10px;
     text-align: center;
 }
 #enviar {
@@ -214,9 +219,9 @@ textarea {
   display: inline-block;
   font-size: 40px;
   height: 70px;
-  padding: 5px 3px;
+  padding: 10px 3px;
   background-color: rgba(0, 0, 0, 0.4);
-  color: rgba(255, 184, 0, 0.8);
+  color: rgba(59, 255, 0, 0.8);
   width: 80%;
   text-align: center;
   border-radius: 0px;
@@ -228,9 +233,9 @@ textarea {
   transition: all 0.4s ease-out; 
 }
 #enviar:hover, #enviar:focus {
-  background-color: rgba(255, 156, 0, 0.21);
+  background-color: rgba(160, 255, 39, 0.19);
   color: white;
-  border: solid 1px rgb(255, 184, 0);
+  border: solid 1px rgb(0, 255, 210);
   width: 100%;
   cursor: pointer;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.4);
