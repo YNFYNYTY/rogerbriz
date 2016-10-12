@@ -1,5 +1,5 @@
 if (screen.width <= 770) {
-document.location = "../mobile/mobileindex.html";
+document.location = "mobile/mobileindex.html";
 }
 
 $(function () {
