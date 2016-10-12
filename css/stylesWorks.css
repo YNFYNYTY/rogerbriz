@@ -24,10 +24,7 @@ body {
   z-index: 1000;
   font-family: 'neue';
   color: white;
-  background: url(../images/overlay11.png) repeat;
-  /*background: url(../images/background4.jpg) 45% 0% / cover ;
-  background-attachment: fixed;
-  background-color:white;*/
+  background: url(../images/overlay24.png) repeat;
 }
 #particles-js {
   position: absolute;

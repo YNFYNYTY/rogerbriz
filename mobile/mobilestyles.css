@@ -27,6 +27,7 @@ body {
 	letter-spacing: 15px;
 }
 h2 {
+    color: white;
     font-size: 12px;
     font-weight: bolder;
     letter-spacing: 8px;
@@ -36,26 +37,30 @@ h2 {
 }
 .box_one {
 	background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(-50deg, #ff1111, yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(-50deg, #ff1111, yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(-50deg, #ff1111, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-50deg, #ff1111, yellow); /* Standard syntax */
+  background: -webkit-linear-gradient(-50deg, #ff1111, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-50deg, #ff1111, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-50deg, #ff1111, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-50deg, #ff1111, yellow); /* Standard syntax */
 	margin: 0px ;
 	padding: 25% 5%;
 }
 .box_one_one {
-	background: url(../images/overlay23.png) repeat;
-	background-color:white;
+	background: -webkit-linear-gradient(-40deg, rgb(255, 153, 17), #fbff00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-40deg, rgb(255, 153, 17), #fbff00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-40deg, rgb(255, 153, 17), #fbff00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-40deg, rgb(255, 153, 17), #fbff00); /* Standard syntax */
 	margin:0px;
 	padding: 15% 5%;
-	box-shadow: inset 0px 15px 18px -12px;
+	box-shadow: inset 0px 11px 13px -11px;
 }
 .box_one_two {
-	background: url(../images/overlay24.png) repeat;
-	background-color:white;
+	background: -webkit-linear-gradient(-40deg, rgb(255, 17, 17), #ff9900); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-40deg, rgb(255, 17, 17), #ff9900); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-40deg, rgb(255, 17, 17), #ff9900); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-40deg, rgb(255, 17, 17), #ff9900); /* Standard syntax */
 	margin: 0px;
 	padding:15% 5%;
-	box-shadow: inset 15px 15px 20px -12px;
+	box-shadow: inset 11px 11px 15px -10px;
 }
 .box_two {
 	background: red; /* For browsers that do not support gradients */
@@ -66,18 +71,24 @@ h2 {
 	padding: 25% 5%;
 }
 .box_two_one {
-	background: url(../images/overlay23.png) repeat;
-	background-color:white;
+	background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-64deg, #7c11ff, #ef00ff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-64deg, #7c11ff, #ef00ff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-64deg, #7c11ff, #ef00ff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-64deg, #7c11ff, #ef00ff); /* Standard syntax */
 	margin:0px;
 	padding: 15% 5%;
-	box-shadow: inset 0px 15px 18px -12px;
+	box-shadow: inset 0px 11px 13px -11px;
 }
 .box_two_two {
-	background: url(../images/overlay24.png) repeat;
-	background-color:white;
+	background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-50deg, #0161ff, #ae1fea); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-50deg, #0161ff, #ae1fea); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-50deg, #0161ff, #ae1fea); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-50deg, #0161ff, #ae1fea); /* Standard syntax */
 	margin:0px;
 	padding:15% 5%;
-	box-shadow: inset 15px 15px 20px -12px;
+	box-shadow: inset 11px 11px 15px -10px;
 }
 .box_three {
 	background: red; /* For browsers that do not support gradients */
@@ -95,7 +106,7 @@ h2 {
 }
 .icon-main {
 	text-align: center;
-	width: 20%;
+	width: 80%;
 	margin: 0px;
 }
 
@@ -199,23 +210,23 @@ textarea {
   transition: all 0.6s ease-in-out;
 }
 ::-webkit-input-placeholder {
-    color: rgb(134, 134, 134);
-    font-size:10px;
+    color: rgb(195, 195, 195);
+    font-size:11px;
     text-align: center;
 }
 :-moz-placeholder {
-    color: rgb(134, 134, 134);
-    font-size:10px;
+    color: rgb(195, 195, 195);
+    font-size:11px;
     text-align: center;
 }
 ::-moz-placeholder {
-    color: rgb(134, 134, 134);
-    font-size:10px;
+    color: rgb(195, 195, 195);
+    font-size:11px;
     text-align: center;
 }
 :-ms-input-placeholder {
-    color: rgb(134, 134, 134);
-    font-size:10px;
+    color: rgb(195, 195, 195);
+    font-size:11px;
     text-align: center;
 }
 #enviar {
