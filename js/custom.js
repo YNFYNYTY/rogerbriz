@@ -47,3 +47,20 @@ $(window).resize(function() {
    height: $(window).outerHeight()
   });
 });
+$(function(){
+      $('#working-exp').click(function(){
+      $('#text-experience').slideToggle();
+      });
+      $('#education').click(function(){
+      $('#text-education').slideToggle();
+      });
+      $('#skills').click(function(){
+      $('#text-skills').slideToggle();
+      });
+      $('#proyects').click(function(){
+      $('#text-proyects').slideToggle();
+      });
+      $('#interest').click(function(){
+      $('#text-interest').slideToggle();
+      });
+});
